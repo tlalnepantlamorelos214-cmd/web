@@ -1,0 +1,295 @@
+.todo{
+    width: 100%;
+    margin: auto;
+}
+.titulo{
+    color:black ;
+    background-color: #407c8a;
+    border-radius: 15PX;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.titulo h1{
+    margin: 0;
+    font-style: Playfair Display, serif;
+    color: black;
+}
+.cajon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.imagenes2{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+ display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+       
+}
+.hijo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+
+}
+.primero,
+.segundo,
+.tercero{
+    width: 300px;
+    min-height: 250px;
+    background-color: #e6e6e6;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #404e3b;
+}
+.primero h3,
+.segundo h2,
+.tercero h2{
+    font-style: oswald, sans-serif;
+    text-align: center;
+}
+
+.pie{
+    background-color: #407c8a;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+     justify-content: space-between;
+     font-size: 20px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.piem{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.plan1{
+ display: flex;
+   width: 100%;
+  flex-direction: column;
+   
+}
+.ben1{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:5fr;
+    border: 2px solid black;
+}
+.mony1{
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: #051f20;
+    
+}
+.dada1{
+    border: 2px solid black;
+     display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 20px;
+}
+   .papa1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+   } 
+.kail{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.lika{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+@media (max-width: 768px) {
+    
+.todo{
+    width: 90%;
+    margin: auto;
+}
+.titulo{
+    width: 300px;
+    height: auto;
+    color:black ;
+    background-color: #407c8a;
+    border-radius: 15PX;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.titulo h1{
+    margin: 0;
+    font-style: Playfair Display, serif;
+    color: black;
+}
+.cajon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.imagenes2 {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+ display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+.hijo{
+    display: flex;
+ 
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.primero,
+.segundo,
+.tercero{
+    width: 300px;
+    background-color: #e6e6e6;
+    color: #404e3b;
+    min-height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.primero h3,
+.segundo h2,
+.tercero h2{
+    font-style: oswald, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie{
+    display: flex;
+    background-color: #407c8a;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+     justify-content: space-between;
+     font-size: 20px;
+     width: 300px;
+     font-family: source-serif4;
+    }
+.img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.piem{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+.plan, .plan1{
+ display: flex;
+   width: 100%;
+  flex-direction: column;
+   
+}
+.ben, .ben1{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+}
+.mony{
+    height: 60%;
+    background-color: #ddead1;
+    display: flex;
+    justify-content: center;
+}
+.mony1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.dada, .dada1{
+    border: 2px solid black;
+     display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 20px;
+}  
+}
