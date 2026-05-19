@@ -1,0 +1,1468 @@
+body{
+    background-color:#75975e;
+
+} primero
+.principal{
+
+   display: flex;
+   width: 100%;
+    min-height: 100dvh;
+   flex-direction: column;
+}
+.logos{
+    display:flex;
+    border: 2px solid black;
+    margin:30px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    background-image:url(nopal.jpeg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.logouno{
+    display: flex;
+    border: 2px solid black;
+    width: 40%;
+    margin: 20px;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+.cuerpo{
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.uno{
+    display: grid;
+    grid-template-rows:1fr 3fr 1fr;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.ti{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+  color: #ddead1;
+  background-color: #07281a;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+
+
+}
+.histo{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.histoi{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.historia{
+    font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+     background-image: url(127.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.titu{
+    border: 2px solid paleturquoise;
+    text-decoration:underline;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+    
+}
+.titua{
+    background-image: url(136.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.titue{
+    text-decoration: solid;
+    text-align: center;
+    border: 2px solid floralwhite;
+    margin: 10px;
+}
+.efe{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    margin-right: 20px;
+    border: 2px solid black;
+}
+.grae{
+    display:grid;
+    grid-template-rows: 1fr 2fr;
+    color: black;
+    
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.gral{
+    display: flex;
+    justify-content: center;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+   
+}
+.beso{
+    display: flex;
+    justify-content: center;
+    background-color: #8eb69b;
+}
+.i{
+
+    background-image: url(comida.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.grau{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.gras{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+    
+}
+.m{
+    background-image:url(144.jpeg);
+  background-position: center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.ache{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #4b6043 ;
+}
+.abajo{
+    background-color: #a3c585;
+   height: 100px;
+    width: 85%;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.al{
+    
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.al a:hover{
+     color: wheat;
+}
+.al ul{
+         list-style:none;
+
+}
+.gral a:hover{
+    color: aqua;
+    
+}
+.gras a:hover{
+     color: aqua;
+
+}
+.titu a:hover{
+     color: aqua;
+    
+}
+.histoi a:hover{
+    color: aqua;
+    
+}
+.histo a:hover{
+    color: aqua;
+    
+}
+.historia a:hover{
+    color: aqua;
+    
+} 
+gastronomia  comuni tradic 
+.masa{
+     display: flex;
+   width: 100%;
+flex-direction: column;
+}
+.sal{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 1fr 6fr;
+    border: 2px solid black;
+
+}
+.mesa{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+}
+.silla1{
+     background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.silla{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: grey;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+.didi{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    color:white;
+    background-color: black;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.silla122{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(59, 117, 232);
+  background-color: black;
+
+
+
+}
+.comedor{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.aceite{
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    color:rgba(47, 21, 2, 0.763);
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+
+
+}
+.sarten{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 3fr);
+    
+}
+.cuchara{
+      background-image:url(comida.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cuchara2, .pan{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+     font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.lago{
+      background-image:url(comida.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.lagos{
+      background-image:url(157.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.alas{
+     background-image:url(156.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.algas{
+     background-image:url(155.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.plato1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    border: 2px solid black;
+}
+.uvas{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #4b6043 ;
+}
+.abajo{
+    background-color: #a3c585;
+   height: 100px;
+    width: 85%;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+}
+
+.sapo{
+      background-image:url(151.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.sapos{
+      background-image:url(153.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.rana{
+     background-image:url(152.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.ranas{
+     background-image:url(154.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cu{
+      background-image:url(139.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cucha{
+      background-image:url(132.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pon{
+     background-image:url(140.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pal{
+     background-image:url(130.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+sabias
+.centro{
+      display: flex;
+   width: 100%;
+  flex-direction: column;
+}
+.video{
+    display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    border: 2px solid black;
+}
+.dos1{
+ border: 2px solid black;
+ display: flex;
+  justify-content: center;
+  background-color: #07281a;
+}
+.cabeza{
+     display: flex;
+    border: 2px solid black;
+    width: 30%;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+.dos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+}
+.tres1, .tres2, .tres3{
+     border: 2px solid black;
+}
+.f1, .f2, .f3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.f{
+    display: flex;
+    justify-content: center;
+font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+vida historiaa 
+.universidad{
+    display: flex;
+   width: 100%;
+  flex-direction: column;
+}
+.prepa{
+    display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    border: 2px solid black;
+}
+.salon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 2px solid cornsilk;
+    background-color: black;
+}
+.sillas1{
+    display: flex;
+    justify-content: center;
+}
+.sillas{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border:2px solid white;
+    color: white;
+}
+.sacas{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.saca{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10px;
+
+}
+.azul{
+    display: flex;
+    padding: 15px;
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.color{
+    display: flex;
+    padding: 15px;
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.lapiz{
+    display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+.aula {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.mesas3{
+    
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr;
+}
+.color1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rojo1{
+    width: 100%;
+    
+     background-image: url(3.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.rojo2{
+    width: 100%;
+   
+     background-image: url(3.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.mesas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border:2px solid black;
+}
+.crayon{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+.azul1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    
+}
+.azul11{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+}
+.verde1{
+      background-image: url(8.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+background-color: #4b6043 ;
+}
+.abajo{
+    background-color: #a3c585;
+   height: 100px;
+    width: 85%;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+}
+.v{
+      background-image: url(135.jpeg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.ve{
+      background-image: url(131.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.ver{
+      background-image: url(145.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+}
+.verd{
+      background-image: url(142.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+}
+.r{
+    width: 100%;
+    border: 2px solid black;
+     background-image:url(128.jpeg) ;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.ro{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(149.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.roj{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(146.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.rojo{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(147.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.azu{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid black;
+}
+.az{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid black;
+}
+.cereza{
+      background-image: url(127.jpeg);
+    background-position: center;
+    background-size: cover;
+   border: 2px solid #35887b;
+}
+.cereza2{
+      background-image: url(126.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #35887b;
+}
+.ojo{
+    width: 100%;
+    border: 2px solid black;
+     background-image:url(125.jpeg) ;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.ojos{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(123.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.boca{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(150.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.bocas{
+    width: 100%;
+    border: 2px solid black;
+     background-image: url(1500.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+pies
+.plan{
+ display: flex;
+   width: 100%;
+  flex-direction: column;
+   
+}
+.ben{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.mony{
+    
+    background-color: #ddead1;
+    display: flex;
+    justify-content: center;
+}
+.dada{
+    border: 2px solid black;
+     display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 20px;
+}
+.cuadro{
+    display: flex;
+    justify-content: center;
+    background-image: url(fondo.jpeg);
+    margin: 10px;
+    
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+     font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: #8eb69b;
+}
+.plan1{
+ display: flex;
+   width: 100%;
+  flex-direction: column;
+   
+}
+.ben1{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:5fr;
+    border: 2px solid black;
+}
+.mony1{
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: #051f20;
+    
+}
+.dada1{
+    border: 2px solid black;
+     display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 20px;
+}
+.papa1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+   } 
+.kail{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.lika{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+@media(max-width:490px){
+    body{background-color:#235347;
+}
+.principal{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+}
+.logos{
+    display:flex;
+    border: 2px solid black;
+    margin:10px;
+    height: 150px;
+    
+    flex-direction: row;
+    background-image:url(fondo.jpeg);
+    background-position: center;
+    justify-content: center;
+     background-size: cover;
+}
+.logouno{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    margin: 20px;
+    background-image: url(logo.jpeg);
+    background-position:left center;
+    justify-content: center;
+    background-size: cover;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    width: 20%;
+}
+.m{
+    background-image:url(144.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.uno{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr 3fr;
+    margin-left: 0px;
+}
+.histo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.historia{
+     background-image: url(127.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.ache{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin:0%;
+}
+.efe{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-right: 0px;
+
+}
+.ti{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style:normal;
+  color: #ddead1;
+  background-color: #07281a;
+}
+.beso{
+    display: flex;
+    justify-content: center;
+    
+}
+.titu{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0px;
+}
+.titue{
+    text-decoration: solid;
+    text-align: center;
+    border: 2px solid floralwhite;
+    margin: 0px;
+}
+.titua{
+
+    margin: 0px;
+    background-image: url(136.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.al a:hover{
+     color: wheat;
+}
+.al ul{
+         list-style:none;
+
+}
+.gral a:hover{
+    color: aqua;
+    
+}
+.gras a:hover{
+     color: aqua;
+
+}
+.titu a:hover{
+     color: aqua;
+    
+}
+.histoi a:hover{
+    color: aqua;
+    
+}
+.histo a:hover{
+    color: aqua;
+    
+}
+.historia a:hover{
+    color: aqua;
+    
+} 
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color:#051f20;
+    width: auto;
+    height: auto;
+
+}
+.abajo{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+    background-color:#8eb69b;
+}
+
+.gral a:hover{
+    color: aqua;
+    height: 50px; 
+    margin: 20px;
+}
+.gras a:hover{
+     color: aqua;
+    height: 50px; 
+    margin: 20px;
+}
+.titu a:hover{
+     color: aqua;
+    height: 50px; 
+    margin: 20px;
+}
+.histo a:hover{
+    color: aqua;
+    height: 50px; 
+    margin: 20px;
+}
+.historia a:hover{
+    color: yellow;
+    height: 50px; 
+    margin: 20px;
+}  
+gastronomia  cultura
+.masa{
+     display: flex;
+   width: 100%;
+flex-direction: column;
+}
+.sal{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 1fr 6fr;
+    border: 2px solid black;
+
+}
+.mesa{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.silla1{
+     background-image: url(logo.jpeg);
+    background-position:left;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    
+}
+.silla{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: #07281a;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+
+}
+.didi{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    color:white;
+    background-color: black;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.silla122{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(59, 117, 232);
+  background-color: black;
+
+
+
+}
+.comedor{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+.aceite{
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    color:yellow;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black
+
+
+}
+.sarten{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 3fr);
+    
+}
+
+.cuchara2, .pan{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+     font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.lago{
+      background-image:url(comida.jpeg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.lagos{
+      background-image:url(157.jpeg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.alas{
+     background-image:url(156.jpeg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.algas{
+     background-image:url(155.jpeg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.plato1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+}
+.uvas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #4b6043 ;
+}
+.abajo{
+    background-color: #a3c585;
+   height: 100px;
+    width: 85%;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+}
+
+.sapo{
+      background-image:url(151.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.sapos{
+      background-image:url(153.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.rana{
+     background-image:url(152.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.ranas{
+     background-image:url(154.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cu{
+      background-image:url(139.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cucha{
+      background-image:url(132.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pon{
+     background-image:url(140.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pal{
+     background-image:url(130.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+sabias
+.centro{
+      display: flex;
+   width: 100%;
+  flex-direction: column;
+}
+.video{
+    display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 2fr 0fr;
+
+}
+.dos1{
+  display:flex;
+    border: 2px solid black;
+    margin:0;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    background-position:center;
+    background-size: cover;
+  background-color: #07281a;
+}
+.cabeza{
+     display: flex;
+    border: 2px solid black;
+    width: 80%;
+    padding: auto;
+    background-image: url(logo.jpeg);
+    background-position:left center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: row;
+}
+.dos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+}
+.tres1, .tres2, .tres3{
+     border: 2px solid black;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.f1,.f2,.f3{
+    display: flex;
+    justify-content: center;
+    padding:0%;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #a3c585;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color:#051f20;
+    width: auto;
+    height: auto;
+}
+.abajo{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+    background-color:#8eb69b;
+}
+
+vida histo tradi
+.universidad{
+    display: flex;
+   width: 100%;
+  flex-direction: column;
+}
+.prepa{
+    display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    border: 2px solid black;
+}
+.salon{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 1fr;
+    border: 2px solid cornsilk;
+}
+.silla{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+.didi{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    color:black;
+    background-color: white;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cu{
+      background-image:url(139.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cucha{
+      background-image:url(132.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pon{
+     background-image:url(140.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pal{
+     background-image:url(130.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.aula {
+    display:grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr;
+    
+}
+.mesas3{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.color1{
+    display: flex;
+}
+.rojo1{
+    width: 100%;
+    
+     background-image: url(3.jpg);
+    background-position: center;
+     background-size:cover;
+    background-repeat: no-repeat;
+}
+.rojo2{
+    width: 100%;
+    
+     background-image: url(3.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color:#051f20;
+    width: auto;
+    height: auto;
+}
+.abajo{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    display: flex; 
+    justify-content:space-around;
+    margin: 10px;
+    padding: 5px;
+    background-color:#8eb69b;
+}
+pies
+.plan, .plan1{
+ display: flex;
+   width: 100%;
+  flex-direction: column;
+   
+}
+.ben, .ben1{
+     display: grid;
+    width:100%;
+    min-height: 100dvh;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+}
+.mony{
+    height: 60%;
+    background-color: #ddead1;
+    display: flex;
+    justify-content: center;
+}
+.mony1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.dada, .dada1{
+    border: 2px solid black;
+     display: flex;
+    height: auto;
+     width: 80%;
+    border: 2px solid black;
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 20px;
+}  
+.cuadro{
+    display: flex;
+    justify-content: center;
+    background-image: url(fondo.jpeg);
+    margin: 10px;
+    
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+}
+
